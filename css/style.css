@@ -1,0 +1,433 @@
+.own__timeline {
+  background: #333;
+  height: 740px;
+}
+
+.own__timeline .personal__information .personal__information--wapper {
+  -webkit-box-shadow: 0px 20px 0px -10px gray, 0px -20px 0px -10px gray, 20px 0px 0px -10px gray, -20px 0px 0px -10px gray, 0px 0px 0px 10px #be0e0e, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+          box-shadow: 0px 20px 0px -10px gray, 0px -20px 0px -10px gray, 20px 0px 0px -10px gray, -20px 0px 0px -10px gray, 0px 0px 0px 10px #be0e0e, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-images {
+  border-right: 10px inset gray;
+  background: -webkit-gradient(linear, left top, right top, from(#00345a), color-stop(54%, #005896), to(#005896));
+  background: linear-gradient(to right, #00345a 0%, #005896 54%, #005896 100%);
+  position: relative;
+  z-index: 999;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-images img {
+  cursor: pointer;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-images img:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-images .information {
+  color: white;
+  line-height: 1.8;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-images .information h4:nth-child(1) {
+  content: "";
+  background: url(../images/man.png) no-repeat 10%;
+  background-size: contain;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-images .information h4:nth-child(3) {
+  content: "";
+  background: url(../images/target.png) no-repeat 10%;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-images .information h4 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-images .information ul li {
+    font-size: 12px;
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline {
+  overflow-x: overlay;
+  background: url(../images/mattroi.gif) no-repeat center center;
+  background-size: cover;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text {
+  z-index: 99;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--1, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--2, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--3, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--4, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--5, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--6, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--7, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--8 {
+  display: none;
+  margin-top: 35%;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--1 input, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--2 input, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--3 input, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--4 input, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--5 input, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--6 input, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--7 input, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--8 input {
+  display: none;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--2 {
+  margin-top: 401px;
+  margin-left: 189px;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--3 {
+  margin-top: 255px;
+  margin-left: 425px;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--4 {
+  margin-top: 218px;
+  margin-left: 752px;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--5 {
+  margin-top: 73px;
+  margin-left: 1040px;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--6 {
+  margin-top: 10px;
+  margin-left: 1211px;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--7 {
+  margin-top: -6px;
+  margin-left: 1119px;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-text .timeline-text--8 {
+  margin-top: 0px;
+  margin-left: 1805px;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline {
+  bottom: 16%;
+  left: 9.5%;
+  z-index: 99;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down1, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down2, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down3, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down4, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down5, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down6, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down7, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down8 {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 13px solid #dee2e6;
+  transform: translate(-23px, 369px);
+  -webkit-transform: translate(-23px, 369px);
+  -moz-transform: translate(48px, 244px);
+  -ms-transform: translate(48px, 244px);
+  -o-transform: translate(48px, 244px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down2 {
+  transform: translate(218px, 374px);
+  -webkit-transform: translate(218px, 374px);
+  -moz-transform: translate(399px, 165px);
+  -ms-transform: translate(399px, 165px);
+  -o-transform: translate(399px, 165px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down3 {
+  transform: translate(453px, 263px);
+  -webkit-transform: translate(453px, 263px);
+  -moz-transform: translate(710px, 145px);
+  -ms-transform: translate(710px, 145px);
+  -o-transform: translate(710px, 145px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down4 {
+  transform: translate(774px, 237px);
+  -webkit-transform: translate(774px, 237px);
+  -moz-transform: translate(594px, -317px);
+  -ms-transform: translate(594px, -317px);
+  -o-transform: translate(594px, -317px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down5 {
+  transform: translate(1055px, 148px);
+  -webkit-transform: translate(1055px, 148px);
+  -moz-transform: translate(594px, -317px);
+  -ms-transform: translate(594px, -317px);
+  -o-transform: translate(594px, -317px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down6 {
+  transform: translate(1307px, -22px);
+  -webkit-transform: translate(1307px, -22px);
+  -moz-transform: translate(594px, -317px);
+  -ms-transform: translate(594px, -317px);
+  -o-transform: translate(594px, -317px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down7 {
+  -webkit-transform: translate(1437px, -219px);
+  transform: translate(1437px, -219px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .triangle-down8 {
+  transform: translate(1639px, -357px);
+  -webkit-transform: translate(1639px, -357px);
+  -moz-transform: translate(594px, -317px);
+  -ms-transform: translate(594px, -317px);
+  -o-transform: translate(594px, -317px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .timeline-nav--ul li {
+  cursor: pointer;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .timeline-nav--ul li:nth-child(1) {
+  transform: translate(-71px, 221px);
+  -webkit-transform: translate(-71px, 221px);
+  -moz-transform: translate(2px, 148px);
+  -ms-transform: translate(2px, 148px);
+  -o-transform: translate(2px, 148px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .timeline-nav--ul li:nth-child(2) {
+  transform: translate(122px, 239px);
+  -webkit-transform: translate(122px, 239px);
+  -moz-transform: translate(304px, 82px);
+  -ms-transform: translate(304px, 82px);
+  -o-transform: translate(304px, 82px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .timeline-nav--ul li:nth-child(3) {
+  transform: translate(309px, 141px);
+  -webkit-transform: translate(309px, 141px);
+  -moz-transform: translate(566px, 75px);
+  -ms-transform: translate(566px, 75px);
+  -o-transform: translate(566px, 75px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .timeline-nav--ul li:nth-child(4) {
+  transform: translate(581px, 128px);
+  -webkit-transform: translate(581px, 128px);
+  -moz-transform: translate(594px, -317px);
+  -ms-transform: translate(594px, -317px);
+  -o-transform: translate(594px, -317px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .timeline-nav--ul li:nth-child(5) {
+  transform: translate(813px, 52px);
+  -webkit-transform: translate(813px, 52px);
+  -moz-transform: translate(2px, 148px);
+  -ms-transform: translate(2px, 148px);
+  -o-transform: translate(2px, 148px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .timeline-nav--ul li:nth-child(6) {
+  transform: translate(1017px, -105px);
+  -webkit-transform: translate(1017px, -105px);
+  -moz-transform: translate(304px, 82px);
+  -ms-transform: translate(304px, 82px);
+  -o-transform: translate(304px, 82px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .timeline-nav--ul li:nth-child(7) {
+  transform: translate(1099px, -289px);
+  -webkit-transform: translate(1099px, -289px);
+  -moz-transform: translate(566px, 75px);
+  -ms-transform: translate(566px, 75px);
+  -o-transform: translate(566px, 75px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline .timeline-nav .timeline-nav--ul li:nth-child(8) {
+  transform: translate(1251px, -414px);
+  -webkit-transform: translate(1251px, -414px);
+  -moz-transform: translate(594px, -317px);
+  -ms-transform: translate(594px, -317px);
+  -o-transform: translate(594px, -317px);
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-person--man, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-person--girl, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-1, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-2, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-3, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-4, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-5, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-6, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-7, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-8 {
+  bottom: -176px;
+  left: 8px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-person--man :hover, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-person--girl :hover, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-1 :hover, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-2 :hover, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-3 :hover, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-4 :hover, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-5 :hover, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-6 :hover, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-7 :hover, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-8 :hover {
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-person--man, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-person--girl, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-1, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-2, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-3, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-4, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-5, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-6, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-7, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-8 {
+    bottom: -208px;
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-person--girl {
+  bottom: -81px;
+  left: 50rem;
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-person--girl {
+    bottom: -133px;
+    left: 38rem;
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-1, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-2, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-3, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-4, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-5, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-6, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-7, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-8 {
+  bottom: -176px;
+  left: 52px;
+  transform: rotate(20deg);
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-1, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-2, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-3, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-4, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-5, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-6, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-7, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-8 {
+    bottom: -208px;
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-2 {
+  bottom: -192px;
+  left: 292px;
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-2 {
+    bottom: -225px;
+    left: 222px;
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-3 {
+  bottom: -97px;
+  left: 33rem;
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-3 {
+    bottom: -146px;
+    left: 26rem;
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-4 {
+  bottom: -84px;
+  left: 53rem;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-4 {
+    bottom: -136px;
+    left: 40rem;
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-5, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-6, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-7, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-8 {
+  bottom: -66px;
+  left: 50rem;
+  -webkit-transform: translate(229px, 21px);
+  transform: rotate(-14deg) translate(339px, 21px);
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-5, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-6, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-7, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-8 {
+    bottom: -127px;
+    left: 37rem;
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-6, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-7, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-8 {
+  bottom: 42px;
+  left: 54rem;
+  -webkit-transform: rotate(-14deg) translate(533px, 21px);
+          transform: rotate(-14deg) translate(533px, 21px);
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-6, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-7, .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-8 {
+    bottom: -49px;
+    left: 38rem;
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-7 {
+  bottom: 117px;
+  left: 55rem;
+  transform: rotate(-21deg) translate(673px, 21px);
+  -webkit-transform: rotate(-21deg) translate(673px, 21px);
+  -moz-transform: rotate(-21deg) translate(673px, 21px);
+  -ms-transform: rotate(-21deg) translate(673px, 21px);
+  -o-transform: rotate(-21deg) translate(673px, 21px);
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-7 {
+    bottom: -3px;
+    left: 38rem;
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-8 {
+  bottom: 335px;
+  left: 49rem;
+  -webkit-transform: rotate(-9deg) translate(940px, 21px);
+          transform: rotate(-9deg) translate(940px, 21px);
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-flag .flag-8 {
+    bottom: 194px;
+    left: 30rem;
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-road {
+  transform: scale(2.26) translate(254px, 131px);
+  -webkit-transform: scale(2.26) translate(254px, 131px);
+  -moz-transform: scale(2.26) translate(254px, 131px);
+  -ms-transform: scale(2.26) translate(254px, 131px);
+  -o-transform: scale(2.26) translate(254px, 131px);
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-road {
+    transform: scale(2.65) translate(195px, 131px);
+    -webkit-transform: scale(2.65) translate(195px, 131px);
+    -moz-transform: scale(2.26) translate(254px, 131px);
+    -ms-transform: scale(2.26) translate(254px, 131px);
+    -o-transform: scale(2.26) translate(254px, 131px);
+  }
+}
+
+.own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-finish {
+  right: -115%;
+  top: 6%;
+}
+
+@media screen and (max-width: 1027px) {
+  .own__timeline .personal__information .personal__information--wapper .information-timeline .timeline-finish {
+    right: -148%;
+    top: 20%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
